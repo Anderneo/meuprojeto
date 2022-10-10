@@ -25,3 +25,19 @@
 #container a {
   text-decoration: none;
 }
+
+.list {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+}
+
+.item:hover{
+  cursor: pointer;
+  color: rgb(17, 125, 118);
+}
+
+.title{
+  text-align: center;
+}
